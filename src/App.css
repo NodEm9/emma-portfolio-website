@@ -10,6 +10,9 @@
   color: var(--Primary-Color-3);
   font-family: 'Roboto Condensed', sans-serif;
   height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
   overflow: auto;
   overflow-x: hidden;
 }

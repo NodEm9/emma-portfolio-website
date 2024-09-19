@@ -4,7 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ThemeProvider } from 'react-bootstrap';
+import { BrowserRouter, Route, Navigate, Routes } from 'react-router-dom';
 
+import WelcomePage from './components/welcome-view/welcome-view';
+import Navigation from './components/navigation-view/navigation';
+import Footer from './components/footer-view/footer-view';
+import About from './components/about-view/about-view';
+import Work from './components/work-view/work-view';
+import Contact from './components/contact-view/contact-view';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,7 +21,17 @@ root.render(
       breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
       minBreakpoint="xxs"
     >
-      <App />
+      <BrowserRouter>
+          <Navigation />
+        <Routes>
+            <Route path="/" element={<App />} />
+            <Route path="/welcome" element={<WelcomePage />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/work" element={<Work />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+          <Footer />
+      </BrowserRouter>
     </ThemeProvider>
   </React.StrictMode>
 );

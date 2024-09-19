@@ -14,6 +14,9 @@ function Navigation() {
         <Navbar.Brand href="/">
           <img src={logo} alt="Website Logo" className='web-logo nded-5' />
         </Navbar.Brand>
+        <Navbar.Text>
+            <Nav.Link href="/welcome" className='text-white'>Home</Nav.Link>
+            </Navbar.Text>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
         <Nav className='fs-5 gap-5 text-white'>

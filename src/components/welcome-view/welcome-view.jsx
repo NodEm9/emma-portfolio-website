@@ -11,7 +11,6 @@ function WelcomePage() {
   return (
     <Container fluid="md">
       <Row md={12} className='main gap-0'>
-
         <Col md={6} className='profile-pic mt-5 mb-5'>
           <img src={myprofilepic} alt='Emmanuel Nodolomwanyi' className='rounded-circle' />
         </Col>
