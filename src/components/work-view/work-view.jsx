@@ -17,7 +17,11 @@ function WorkView() {
         <Col md={12} className='d-flex gap-5 flex-wrap justify-content-center ml-5 pl-5'>
           {cardData.map((card, index) => (
             <Card key={index} className='mb-4'>
-              <Card.Img variant="top" height={300} src={card.img} className='border-bottom border-dark' />
+              {card.video ? (
+                <Card.Img variant='top' src={card.video} className='video' />
+              ) : (
+                <Card.Img variant='top' src={card.img} />
+              )}
               <Card.Body className='text-center'>
                 <Card.Title className='fw-bold'>{card.title}</Card.Title>
                 <Card.Text className='fw-medium'>

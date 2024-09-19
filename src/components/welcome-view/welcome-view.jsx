@@ -15,7 +15,7 @@ function WelcomePage() {
           <img src={myprofilepic} alt='Emmanuel Nodolomwanyi' className='rounded-circle' />
         </Col>
         <Col md={6} className='mt-5 text-white'>
-          <h1 className='welcome-text fs-1'>Welcome to Portfolio</h1>
+          <h1 className='welcome-text fs-1'>Welcome To My Portfolio</h1>
           <p className='fs-5'>
             <span className='owner-name'>Hi, I'm </span><b>Emmanuel Nodolomwanyi</b>,
             a passionate junior full-stack developer with a knack for building dynamic, user-friendly web applications. I enjoy creating seamless experiences from front-end design to back-end functionality, using technologies like JavaScript, React, Angular, Node.js, AWS and MongoDB.

@@ -5,6 +5,7 @@ import meet from '../assets/images/meet-app.png'
 import ecopicture from '../assets/images/ecopicture.png'
 import portfoliowebsite from '../assets/images/emma-portfolio-website-img.webp'
 import todo from '../assets/images/todoapp.png'
+import chatapp from '../assets/videos/chat-app.gif'
 
 
 const cardData = [
@@ -14,6 +15,13 @@ const cardData = [
     text: 'Angular SPA built using Angular CLI, Angular Material and Angular Flex Layout. The app is a movie database that allows users to sign up, log in, view movie details, and save favorite movies.',
     appLink: 'https://nodem9.github.io/myFlix-angular-clients',
     codeLink: 'https://github.com/NodEm9/myFlix-angular-clients'
+  },
+  {
+    title: 'Chat App',
+    video: chatapp,
+    text: 'Chat App built with React Native, Expo, Firebase and Gifted Chat. The app allows users to choose a custom background for the chat screen and send images and videos from the phone storage.',
+    appLink: 'https://github.com/NodEm9/chat-app',
+    codeLink: 'https://github.com/NodEm9/chat-app'
   },
   {
     title: 'Meet App',
