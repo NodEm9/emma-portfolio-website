@@ -1,6 +1,6 @@
 import React from 'react'
 import './welcome-view.css'
-import myprofilepic from '../../assets/images/myprofilepic.webp'
+import myprofilepic from '../../assets/images/hero.jpg'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -27,17 +27,3 @@ function WelcomePage() {
 }
 
 export default WelcomePage
-
-{/* <Navigation />
-<Routes>
-  <Route path="/" element={<WelcomePage />} />
-  <Route path="/about" element={
-    <>
-      {about ? <Navigate to={'/'} replace/> : <About />}
-    </>
-
-  } />
-  <Route path="/work" element={<Work />} />
-  <Route path="/contact" element={<Contact />} />
-</Routes>
-<Footer /> */}
