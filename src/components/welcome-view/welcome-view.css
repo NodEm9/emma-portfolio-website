@@ -10,11 +10,12 @@
 
 
 .main {
-  height: 100%;
   padding: 150px 100px;
+  margin-bottom: 4.5rem;
   justify-content: center;
   align-items: center;
   font-family: Roboto Condensed;
+  overflow: hidden;
 }
 
 img {
