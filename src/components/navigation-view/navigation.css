@@ -11,7 +11,11 @@
   background-color: var(--background-color);
   color: var(--Primary-Color-3);
   padding: 2px;
-  height: 7vh;
+  height: 8vh;
+}
+
+.nav {
+  gap: 20px;
 }
 
 .web-logo {
@@ -20,4 +24,16 @@
   border-radius: 15px;
   justify-self: center;
   margin-top: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .bg {
+    height: 10vh;
+  }
+  .nav {
+    max-width: max-content;
+    font-size: 16px;
+    gap: 1pc;
+    width: 100%;
+  }
 }

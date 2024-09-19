@@ -6,7 +6,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 
-
 function Navigation() {
   return (
     <Navbar className='bg p-1 align-items-center fixed-top'>
@@ -14,9 +13,9 @@ function Navigation() {
         <Navbar.Brand href="#/">
           <img src={logo} alt="Website Logo" className='web-logo nded-5' />
         </Navbar.Brand>
-        <Navbar.Toggle />
+        <Navbar.Toggle className='toggle bg-light' />
         <Navbar.Collapse className="justify-content-end">
-        <Nav className='fs-5 gap-5 text-white'>
+        <Nav className='nav text-white fs-sm-5'>
             <Navbar.Text>
             <Nav.Link href="#/work" className='text-white'>Work</Nav.Link>
             </Navbar.Text>
@@ -30,8 +29,7 @@ function Navigation() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  );
-                                                                                                                                                                                                                                                
+  );                                                                                                                                                                                                                                           
 }
 
 
