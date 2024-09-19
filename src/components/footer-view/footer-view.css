@@ -1,0 +1,10 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  --background-color: #000000;
+}
+
+footer {
+  background: var(--background-color);
+  overflow: hidden;
+}

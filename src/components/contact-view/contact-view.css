@@ -1,0 +1,21 @@
+.contact-container {
+  height: 100vh;
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.contact {
+  left: 0;
+  text-align: left;
+}
+
+.home, .email, .phone {
+  width: 300px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.email a, .phone a {
+  text-decoration: none;
+}

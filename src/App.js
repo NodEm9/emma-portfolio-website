@@ -1,24 +1,14 @@
-import logo from './logo.svg';
+import { Col, Row } from 'react-bootstrap';
 import './App.css';
+import WelcomePage from './components/welcome-view/welcome-view';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Row className="App justify-content-center">
+      <Col md={12}>
+        <WelcomePage />
+      </Col>
+    </Row>
   );
 }
 

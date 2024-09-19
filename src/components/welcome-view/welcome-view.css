@@ -1,0 +1,42 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  --Primary-Color-2: #102C56;
+  --Primary-Color-3: #F2F2F2;
+  --background-color: #548ADC;
+  --active-color: #FFA500;
+  --font-size: 16px;
+}
+
+
+.main {
+  height: 100%;
+  padding: 150px 100px;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto Condensed;
+}
+
+img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+a {
+  color: var(--background-color);
+}
+
+.intro-text {
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 50px 20px;
+  }
+
+  img {
+    width: 50%;
+  }
+  
+}
