@@ -2,7 +2,7 @@
   "name": "emma-portfolio-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://NodEm9.github.io/emma-portfolio-website",
+  "homepage": "https://nodem9.github.io/emma-portfolio-website",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/plugin-transform-private-property-in-object": "^7.24.7",
     "gh-pages": "^6.1.1"
   }
