@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 
+
 function Navigation() {
   return (
     <Navbar className='bg p-1 align-items-center fixed-top'>

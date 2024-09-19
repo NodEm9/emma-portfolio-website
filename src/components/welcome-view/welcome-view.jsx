@@ -6,10 +6,12 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 
+
 function WelcomePage() {
   return (
     <Container fluid="md">
       <Row md={12} className='main gap-0'>
+
         <Col md={6} className='profile-pic mt-5 mb-5'>
           <img src={myprofilepic} alt='Emmanuel Nodolomwanyi' className='rounded-circle' />
         </Col>
@@ -26,3 +28,17 @@ function WelcomePage() {
 }
 
 export default WelcomePage
+
+{/* <Navigation />
+<Routes>
+  <Route path="/" element={<WelcomePage />} />
+  <Route path="/about" element={
+    <>
+      {about ? <Navigate to={'/'} replace/> : <About />}
+    </>
+
+  } />
+  <Route path="/work" element={<Work />} />
+  <Route path="/contact" element={<Contact />} />
+</Routes>
+<Footer /> */}

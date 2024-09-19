@@ -7,10 +7,11 @@ import Work from './components/work-view/work-view';
 import Contact from './components/contact-view/contact-view';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
+
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
+    <BrowserRouter>
+      <div className="App">
         <Navigation />
         <Routes>
           <Route path="/" element={<WelcomePage />} />
@@ -19,9 +20,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
-    </div>
-    
+      </div>
+    </BrowserRouter>
   );
 }
 
