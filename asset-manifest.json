@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/emma-portfolio-website/static/css/main.95871bdd.css",
-    "main.js": "/emma-portfolio-website/static/js/main.c753d1a7.js",
+    "main.js": "/emma-portfolio-website/static/js/main.7bd228ec.js",
     "static/js/453.d8a67248.chunk.js": "/emma-portfolio-website/static/js/453.d8a67248.chunk.js",
     "static/media/myflix-angular.png": "/emma-portfolio-website/static/media/myflix-angular.be85db8d153aff924a05.png",
     "static/media/ecopicture.png": "/emma-portfolio-website/static/media/ecopicture.bca8d732f6b744d5068e.png",
@@ -13,11 +13,11 @@
     "static/media/todoapp.png": "/emma-portfolio-website/static/media/todoapp.4cbf11b1f842a3e6eafc.png",
     "index.html": "/emma-portfolio-website/index.html",
     "main.95871bdd.css.map": "/emma-portfolio-website/static/css/main.95871bdd.css.map",
-    "main.c753d1a7.js.map": "/emma-portfolio-website/static/js/main.c753d1a7.js.map",
+    "main.7bd228ec.js.map": "/emma-portfolio-website/static/js/main.7bd228ec.js.map",
     "453.d8a67248.chunk.js.map": "/emma-portfolio-website/static/js/453.d8a67248.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.95871bdd.css",
-    "static/js/main.c753d1a7.js"
+    "static/js/main.7bd228ec.js"
   ]
 }
