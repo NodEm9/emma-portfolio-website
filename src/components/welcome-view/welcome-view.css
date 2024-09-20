@@ -40,5 +40,36 @@ a {
   img {
     width: 50%;
   }
-  
+}
+
+@media screen and (max-width: 980px) {
+  .main {
+    padding: 100px 20px;
+    text-align: center;
+  }
+
+  img {
+    width: 50%;
+  }
+
+  .intro-text {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    padding: 100px 20px;
+    text-align: center;
+  }
+
+  img {
+    width: 50%;
+  }
+
+  .intro-text {
+    width: 100%;
+    font-size: 1.2rem;
+  }
 }

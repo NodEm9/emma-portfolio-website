@@ -11,10 +11,10 @@ import  cardData from '../../data/cardData'
 
 function WorkView() {
   return (
-    <Container fluid className='mb-5 mt-5 ml-5 pl-5'>
-      <h1 className='text-white text-center pt-5 mb-4'>My Work</h1>
-      <Row md={12} className='card-container mt-5 mb-5 ml-5 pl-5' >
-        <Col md={12} className='d-flex gap-5 flex-wrap justify-content-center ml-5 pl-5'>
+    <Container fluid className='mb-5 mt-5 pt-1 ml-5 pl-5'>
+      <h1 className='text-white text-center pt-5 mt-5 pb-4 mb-4'>My Work</h1>
+      <Row md={12} className='mt-5 mb-5 ml-5 pl-5' >
+        <Col md={12} className='card-container d-flex gap-5 flex-wrap justify-content-center ml-5 pl-5'>
           {cardData.map((card, index) => (
             <Card key={index} className='mb-4'>
               {card.video ? (

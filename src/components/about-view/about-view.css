@@ -31,8 +31,43 @@
     width: 40%;
   }
 
-  .tabel-one{
-    padding: 0 35px;
+  .table {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .hero-img {
+    width: 20%;
+  }
+
+  .table {
+    width: 100%;
+    justify-content: center;
+    margin-right: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-img {
+    width: 25%;
+    margin-top: 70px;
+  }
+
+  .intro-txt {
+    width: 70%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 20px; 
+    padding: 0 5px; 
+    text-align: left;
+  }
+
+  .table {
+    width: 100%;
+    justify-content: center;
+    margin-right: auto;
   }
   
 }

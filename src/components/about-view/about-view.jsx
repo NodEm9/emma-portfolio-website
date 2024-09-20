@@ -23,8 +23,8 @@ function AboutView() {
           This portfolio showcases my journey as a developer, highlighting the projects I’ve worked on, the skills I’ve honed, the problems I’ve solved and I’m always eager to improve my skills. Whether you're here to explore my work or connect for potential opportunities, I’m excited to share what I’ve been building. Thanks for stopping by.
         </Col>
       </Row>
-      <Row md={8} className='justify-content-center'>
-        <Col md={5} className='tabel-one justify-content-center'>
+      <Row md={8} className='mx-auto justify-content-center'>
+        <Col md={5} className='table'>
           <Table striped bordered hover>
             <thead>
               <tr>
