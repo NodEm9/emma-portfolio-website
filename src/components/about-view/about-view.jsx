@@ -16,7 +16,7 @@ function AboutView() {
         </Col>
       </Row>
       <Row md={12} className='justify-content-center'>
-        <Col md={5} className='intro-txt mt-5 mb-5 text-wrap text-white'>
+        <Col md={5} sm={12} className='intro-txt mt-5 mb-5 text-wrap text-white'>
           Hi, I'm Emmanuel Nodolomwanyi, a passionate junior full-stack developer with a knack for building dynamic, user-friendly web applications. I enjoy creating seamless experiences from front-end design to back-end functionality, using technologies like JavaScript, React, Angular, Node.js, AWS and MongoDB.
        <br />
        <br />
@@ -24,7 +24,7 @@ function AboutView() {
         </Col>
       </Row>
       <Row md={8} className='mx-auto justify-content-center'>
-        <Col md={5} className='table'>
+        <Col md={5} className='mr-5 pr-5'>
           <Table striped bordered hover>
             <thead>
               <tr>

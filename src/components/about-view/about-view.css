@@ -1,3 +1,4 @@
+
 .hero-img {
   width: 10%;
   margin-bottom: 20px;
@@ -10,9 +11,6 @@
   padding: 0 20px; 
 }
 
-.tabel-one {
-  padding: 0 35px;
-}
 
 .sun {
   animation: 4s color-change infinite alternate linear;
@@ -31,9 +29,15 @@
     width: 40%;
   }
 
-  .table {
+  .intro-txt {
     width: 100%;
-    justify-content: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 20px; 
+    text-wrap: nowrap;
+    padding: 0; 
+    margin: 0;
+    text-align: left;
   }
 }
 
@@ -49,7 +53,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media all and (max-width: 1024px) {
   .hero-img {
     width: 25%;
     margin-top: 70px;
@@ -60,16 +64,7 @@
     font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 20px; 
-    padding: 0 5px; 
-    text-align: left;
   }
-
-  .table {
-    width: 100%;
-    justify-content: center;
-    margin-right: auto;
-  }
-  
 }
 
 @keyframes color-change {
