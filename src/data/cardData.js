@@ -34,7 +34,7 @@ const cardData = [
   {
     title: 'myFlix React App',
     img: myflixReact,
-    text: 'SPA built using React, Nodejs, Express and MongoDB',
+    text: 'SPA built using React, Nodejs, Express and MongoDB. The app is a movie database that allows users to sign up, log in, view movie details, and save favorite movies.',
     appLink: 'https://myflix-movieoasis.netlify.app/login',
     codeLink: 'https://github.com/NodEm9/myFlix-client'
   },
@@ -48,14 +48,14 @@ const cardData = [
   {
     title: 'Pokédex App',
     img: poke,
-    text: 'Pokédex app built Html, CSS, JQuery and Bootstrap. The app fetches pokémon data from PokéAPI.',
+    text: 'Pokédex app built HTML, CSS, JQuery and Bootstrap. The app fetches pokémon data from PokéAPI.',
     appLink: 'https://nodem9.github.io/pokemonapp/',
     codeLink: 'https://github.com/NodEm9/pokemonapp'
   },
   {
     title: 'Simple Todo App',
     img: todo,
-    text: 'Responsive Todo app built with HTML, CSS, and JQuery.',
+    text: 'The responsive Todo app built with HTML, CSS, and JQuery.',
     appLink: 'https://nodem9.github.io/to-do-list-app/index.html',
     codeLink: 'https://github.com/NodEm9/to-do-list-app'
   },
