@@ -6,6 +6,7 @@ import ecopicture from '../assets/images/ecopicture.png'
 import portfoliowebsite from '../assets/images/emma-portfolio-website-img.webp'
 import todo from '../assets/images/todoapp.png'
 import chatapp from '../assets/videos/chat-app.gif'
+import docu from '../assets/images/docu.png'
 
 
 const cardData = [
@@ -26,16 +27,23 @@ const cardData = [
   {
     title: 'Meet App',
     img: meet,
-    text: 'React SPA built using TDD and BDD approaches. Jest, Ghekins, Puppeteer and Jest-Cucumber used for tesing. Atatus is used to experiment app performance monitoring.',
+    text: 'React SPA built using TDD and BDD approaches. Jest, Ghekins, Puppeteer and Jest-Cucumber used for tesing. Atatus is used to experiment app performance monitoring.  The Backend (Server Logic): Was written with Node/Express as Lambda functions (FaaS); hosted on AWS (requests come from frontend to Lambda function to data). While the Backend (Database): A Google Calendar API. This app allows users to search for upcoming events in their city and view the events on a map.',
     appLink: 'https://nodem9.github.io/meet/',
     codeLink: 'https://github.com/NodEm9/mee'
   },
   {
-    title: 'mFlix React App',
+    title: 'myFlix React App',
     img: myflixReact,
     text: 'SPA built using React, Nodejs, Express and MongoDB',
     appLink: 'https://myflix-movieoasis.netlify.app/login',
     codeLink: 'https://github.com/NodEm9/myFlix-client'
+  },
+  {
+    title: 'myFlix API',
+    img: docu,
+    text: 'API built using Nodejs, Express and MongoDB. The API is used to store and manage user data, movie data, and user favorites.',
+    appLink: 'https://myflix-app-led6.onrender.com/documentation.html',
+    codeLink: 'https://github.com/NodEm9/myFlix-app'
   },
   {
     title: 'Pokédex App',
