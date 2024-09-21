@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/emma-portfolio-website/static/css/main.3613c4fd.css",
-    "main.js": "/emma-portfolio-website/static/js/main.d554e1ec.js",
+    "main.js": "/emma-portfolio-website/static/js/main.fa06bd56.js",
     "static/js/453.d8a67248.chunk.js": "/emma-portfolio-website/static/js/453.d8a67248.chunk.js",
     "static/media/chat-app.gif": "/emma-portfolio-website/static/media/chat-app.79a7cdde9d309d36d4e5.gif",
     "static/media/myflix-angular.png": "/emma-portfolio-website/static/media/myflix-angular.be85db8d153aff924a05.png",
@@ -9,16 +9,17 @@
     "static/media/hero.jpg": "/emma-portfolio-website/static/media/hero.e327025a653fc3db0ecd.jpg",
     "static/media/myflixapp.jpg": "/emma-portfolio-website/static/media/myflixapp.912ca39a785ba210fdc5.jpg",
     "static/media/meet-app.png": "/emma-portfolio-website/static/media/meet-app.c4524d64692fb5282cf6.png",
+    "static/media/docu.png": "/emma-portfolio-website/static/media/docu.8a4fb2e0d0e14ac63bdd.png",
     "static/media/poke.png": "/emma-portfolio-website/static/media/poke.4c63665e8712bd2cc45c.png",
     "static/media/emma-portfolio-website-img.webp": "/emma-portfolio-website/static/media/emma-portfolio-website-img.ef89ef27defee4a99c91.webp",
     "static/media/todoapp.png": "/emma-portfolio-website/static/media/todoapp.4cbf11b1f842a3e6eafc.png",
     "index.html": "/emma-portfolio-website/index.html",
     "main.3613c4fd.css.map": "/emma-portfolio-website/static/css/main.3613c4fd.css.map",
-    "main.d554e1ec.js.map": "/emma-portfolio-website/static/js/main.d554e1ec.js.map",
+    "main.fa06bd56.js.map": "/emma-portfolio-website/static/js/main.fa06bd56.js.map",
     "453.d8a67248.chunk.js.map": "/emma-portfolio-website/static/js/453.d8a67248.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3613c4fd.css",
-    "static/js/main.d554e1ec.js"
+    "static/js/main.fa06bd56.js"
   ]
 }
