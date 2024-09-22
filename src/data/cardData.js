@@ -27,7 +27,7 @@ const cardData = [
   {
     title: 'Meet App',
     img: meet,
-    text: 'React SPA built using TDD and BDD approaches. Jest, Ghekins, Puppeteer and Jest-Cucumber used for tesing. Atatus is used to experiment app performance monitoring.  The Backend (Server Logic): Was written with Node/Express as Lambda functions; hosted on AWS. While the Backend (Database): is a Google Calendar API. This app allows users to search for upcoming events in their city.',
+    text: 'React SPA built using TDD and BDD approaches. Jest, Ghekins, Puppeteer and Jest-Cucumber used for tesing. AWS and Google Calendar API, Atatus is used to experiment app performance monitoring. This app allows users to search for upcoming events in their city.',
     appLink: 'https://nodem9.github.io/meet/',
     codeLink: 'https://github.com/NodEm9/mee'
   },
