@@ -23,7 +23,7 @@ function WelcomePage() {
         <Col md={6} className='intro-text justify-content-center'>
           <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} config={{ duration: 1000, }}>
             {props => <animated.h1 style={props} className='hero-text fw-bold'>
-              Create <span className='text-primary'>innovative</span> solutions for your business, Let's.
+              I'm poised to create <span className='text-primary'>innovative</span> solutions for your business.
             </animated.h1>}
           </Spring>
           <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} config={{ duration: 1000, damping: 1 }}>
