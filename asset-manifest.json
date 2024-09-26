@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/emma-portfolio-website/static/css/main.e57124e5.css",
-    "main.js": "/emma-portfolio-website/static/js/main.10d54b08.js",
+    "main.js": "/emma-portfolio-website/static/js/main.e42d247c.js",
     "static/js/404.90b1e942.chunk.js": "/emma-portfolio-website/static/js/404.90b1e942.chunk.js",
     "static/js/453.41317066.chunk.js": "/emma-portfolio-website/static/js/453.41317066.chunk.js",
     "static/media/chat-app.gif": "/emma-portfolio-website/static/media/chat-app.79a7cdde9d309d36d4e5.gif",
@@ -16,11 +16,11 @@
     "static/media/article.md": "/emma-portfolio-website/static/media/article.7f8f2b4be0dc58f5794e.md",
     "index.html": "/emma-portfolio-website/index.html",
     "main.e57124e5.css.map": "/emma-portfolio-website/static/css/main.e57124e5.css.map",
-    "main.10d54b08.js.map": "/emma-portfolio-website/static/js/main.10d54b08.js.map",
+    "main.e42d247c.js.map": "/emma-portfolio-website/static/js/main.e42d247c.js.map",
     "453.41317066.chunk.js.map": "/emma-portfolio-website/static/js/453.41317066.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e57124e5.css",
-    "static/js/main.10d54b08.js"
+    "static/js/main.e42d247c.js"
   ]
 }
