@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/emma-portfolio-website/static/css/main.63c06fa6.css",
-    "main.js": "/emma-portfolio-website/static/js/main.1a972d4f.js",
-    "static/js/404.90b1e942.chunk.js": "/emma-portfolio-website/static/js/404.90b1e942.chunk.js",
+    "main.js": "/emma-portfolio-website/static/js/main.24a9e0d8.js",
+    "static/js/404.7b3a204e.chunk.js": "/emma-portfolio-website/static/js/404.7b3a204e.chunk.js",
     "static/js/453.41317066.chunk.js": "/emma-portfolio-website/static/js/453.41317066.chunk.js",
     "static/media/chat-app.gif": "/emma-portfolio-website/static/media/chat-app.79a7cdde9d309d36d4e5.gif",
     "static/media/myflix-angular.png": "/emma-portfolio-website/static/media/myflix-angular.be85db8d153aff924a05.png",
     "static/media/ecopicture.png": "/emma-portfolio-website/static/media/ecopicture.bca8d732f6b744d5068e.png",
-    "static/media/hero.jpg": "/emma-portfolio-website/static/media/hero.e327025a653fc3db0ecd.jpg",
     "static/media/myflixapp.jpg": "/emma-portfolio-website/static/media/myflixapp.912ca39a785ba210fdc5.jpg",
     "static/media/meet-app.png": "/emma-portfolio-website/static/media/meet-app.c4524d64692fb5282cf6.png",
     "static/media/docu.png": "/emma-portfolio-website/static/media/docu.8a4fb2e0d0e14ac63bdd.png",
     "static/media/poke.png": "/emma-portfolio-website/static/media/poke.4c63665e8712bd2cc45c.png",
     "static/media/emma-portfolio-website-img.webp": "/emma-portfolio-website/static/media/emma-portfolio-website-img.ef89ef27defee4a99c91.webp",
-    "static/media/article.md": "/emma-portfolio-website/static/media/article.7f8f2b4be0dc58f5794e.md",
+    "static/media/hero.avif": "/emma-portfolio-website/static/media/hero.1ef20d33bffa101f766f.avif",
+    "static/media/article.md": "/emma-portfolio-website/static/media/article.890e9e1c52413ab8a0a4.md",
     "index.html": "/emma-portfolio-website/index.html",
     "main.63c06fa6.css.map": "/emma-portfolio-website/static/css/main.63c06fa6.css.map",
-    "main.1a972d4f.js.map": "/emma-portfolio-website/static/js/main.1a972d4f.js.map",
+    "main.24a9e0d8.js.map": "/emma-portfolio-website/static/js/main.24a9e0d8.js.map",
     "453.41317066.chunk.js.map": "/emma-portfolio-website/static/js/453.41317066.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63c06fa6.css",
-    "static/js/main.1a972d4f.js"
+    "static/js/main.24a9e0d8.js"
   ]
 }
