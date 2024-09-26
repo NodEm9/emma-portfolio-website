@@ -13,8 +13,8 @@ root.render(
       breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
       minBreakpoint="xxs"
     >
-      <App />
-    </ThemeProvider>
+      <App /> 
+      </ThemeProvider>
   </React.StrictMode>
 );
 

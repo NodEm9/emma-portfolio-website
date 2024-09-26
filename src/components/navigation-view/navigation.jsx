@@ -5,31 +5,46 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
+const navLinks = [
+  { title: 'Work', href: '#/work'},
+  { title: 'About', href: '#/about'},
+  { title: 'Contact', href: '#/contact'},
+  { title: 'Blog', href: '#/blog'},
+]
 
 function Navigation() {
+  // Get the current URL path and set it to the pathName variable
+  const pathName = new URL(window.location.href).hash
+
   return (
-    <Navbar className='bg p-1 align-items-center fixed-top'>
-      <Container className='s-mr-5 e-ml-5'>
-        <Navbar.Brand href="#/">
-          <img src={logo} alt="Website Logo" className='web-logo nded-5' />
+    <Navbar className='bg-dark fixed-top'>
+      <Container>
+        <Navbar.Brand href="#/" className='d-flex gap-3 align-items-center jusfiy-content-center'>
+          <img src={logo} alt="Website Logo" className='web-logo rounded-circle text-white fw-bold' />
+          <h1 className='text-white fw-bold fs-4'>Emma Nodo</h1>
         </Navbar.Brand>
         <Navbar.Toggle className='toggle bg-light' />
         <Navbar.Collapse className="justify-content-end">
-        <Nav className='nav text-white fs-sm-5'>
-            <Navbar.Text>
-            <Nav.Link href="#/work" className='text-white'>Work</Nav.Link>
-            </Navbar.Text>
-            <Navbar.Text>
-              <Nav.Link href="#/about" className='text-white'>About</Nav.Link>
-            </Navbar.Text>
-            <Navbar.Text>
-              <Nav.Link href="#/contact" className='text-white'>Contact</Nav.Link>
+          <Nav className='nav text-white'>
+            <Navbar.Text role='menu' className='nav-items'>
+              {navLinks.map((link, index) => (
+                 <Nav.Link
+                 key={index}
+                 href={link.href}
+                 role='menuitem'
+                 aria-label='Navigation Link'
+                 contextMenu='Navigation Link'
+                  className='nav-link text-white'>
+                  {/** Add active class to the current link */}
+                  {pathName === link.href ? <strong className='text-primary'>{link.title}</strong> : link.title}
+                </Nav.Link>
+              ))}
             </Navbar.Text>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  );                                                                                                                                                                                                                                           
+  );
 }
 
 

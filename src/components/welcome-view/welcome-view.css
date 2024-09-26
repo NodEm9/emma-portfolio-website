@@ -1,25 +1,20 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 :root {
-  --Primary-Color-2: #102C56;
-  --Primary-Color-3: #F2F2F2;
-  --background-color: #548ADC;
-  --active-color: #FFA500;
-  --font-size: 16px;
+  --background-color: #011b43;
 }
 
-
 .main {
-  padding: 160px 150px;
-  margin-bottom: 4.5rem;
+  min-height: 100%;
+  margin-top: 10rem;
   justify-content: center;
   align-items: center;
-  font-family: Roboto Condensed;
+  font-family: Poppins, sans-serif;
   overflow: hidden;
 }
 
 img {
-  width: 50%;
+  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -27,49 +22,114 @@ a {
   color: var(--background-color);
 }
 
+.hero-image {
+  height: 100vh;
+}
+
 .intro-text {
-  padding-bottom: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  top: 0;
+  left: 0;
 }
 
-@media screen and (max-width: 768px) {
+.content {
+  position: absolute;
+  top: 0;
+  margin-top: 7rem;;
+}
+
+.hero-text {
+  position: absolute;
+  margin-top: 0;
+  justify-content: start;
+  align-items: start;
+  top: 0;
+}
+
+.social-link {
+  margin-top: 17rem;
+}
+
+.card-containers {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  margin-top: 0.5rem;
+  gap: 60px;
+ }
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.card-body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: subgrid;
+}
+
+.card-link {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.view-project {
+  margin-right: -12rem;
+}
+
+.h2-text {
+  margin-left: -12rem;
+}
+
+@media screen and (max-width: 500px) {
   .main {
-    padding: 100px 20px;
+    padding: 5px 5px;
     text-align: center;
   }
 
-  img {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 980px) {
-  .main {
-    padding: 100px 20px;
-    text-align: center;
-  }
-
-  img {
-    width: 50%;
+  img{
+    width: 90%;
   }
 
   .intro-text {
-    width: 100%;
-    font-size: 1.2rem;
+    height: 100%;
+    justify-content: center;
+    padding-bottom: 15px;
   }
+
+  .content {
+    margin-top: -18rem;
+  }
+
+  .hero-text {
+    margin-top: -26rem;
+  }
+
+  .social-link {
+    margin-top: 0;
+    justify-content: center;
+  }
+
+  .recent-proj {
+    padding: 0 80px;
+  }
+
+  .card-containers {
+    grid-template-columns: auto;
+    padding: 0 80px;
+  }
+
+  .view-project {
+    margin-right: -11rem;
+  }
+  
+  .h2-text {
+    margin-left: -11rem;
+  }
+
 }
 
-@media screen and (max-width: 1024px) {
-  .main {
-    padding: 100px 20px;
-    text-align: center;
-  }
-
-  img {
-    width: 50%;
-  }
-
-  .intro-text {
-    width: 100%;
-    font-size: 1.2rem;
-  }
-}

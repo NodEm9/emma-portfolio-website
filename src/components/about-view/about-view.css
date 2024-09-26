@@ -1,14 +1,15 @@
 
 .hero-img {
-  width: 10%;
+  width: 30%;
   margin-bottom: 20px;
 }
 
 .intro-txt {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 20px; 
   padding: 0 20px; 
+  line-height: 1.6;
 }
 
 
@@ -24,9 +25,9 @@
   animation: 30s cloud-fall infinite alternate ease-out;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   .hero-img {
-    width: 40%;
+    width: 50%;
   }
 
   .intro-txt {
@@ -43,7 +44,7 @@
 
 @media screen and (max-width: 370px) {
   .hero-img {
-    width: 20%;
+    width: 40%;
   }
 
   .table {
@@ -53,16 +54,17 @@
   }
 }
 
-@media all and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .hero-img {
-    width: 25%;
-    margin-top: 70px;
+    width: 50%;
+    margin-top: 50px;
   }
 
   .intro-txt {
-    width: 70%;
+    width: 90%;
     font-size: 1.2rem;
     font-weight: 500;
+    padding: 0 10px;
     margin-bottom: 20px; 
   }
 }

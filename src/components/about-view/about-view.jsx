@@ -8,19 +8,20 @@ import HomeTwonView from './home-town-view'
 
 function AboutView() {
   return (
-    <Row className='ustify-content-center text-center mt-5'>
+    <Row className='justify-content-center text-center mt-5 pt-5'>
       <Row className='justify-content-center'>
         <Col md={8} className='profile-pic mt-5 mb-'>
           <img src={myprofilepic} alt='Emmanuel Nodolomwanyi' className='hero-img text-center rounded-circle' />
-          <h1 className='mt-5 text-white'>About Me</h1>
+          <h1 className='mt-5'>About Me</h1>
         </Col>
       </Row>
       <Row md={12} className='justify-content-center'>
-        <Col md={5} sm={12} className='intro-txt mt-5 mb-5 text-wrap text-white'>
-          Hi, I'm Emmanuel Nodolomwanyi, a passionate junior full-stack developer with a knack for building dynamic, user-friendly web applications. I enjoy creating seamless experiences from front-end design to back-end functionality, using technologies like JavaScript, React, Angular, Node.js, AWS and MongoDB.
+        <Col md={5} sm={12} className='intro-txt mt-5 mb-5 text-wrap'>
+        After a career in document digitization, where I honed my attention to detail and organizational skills, I transitioned into web development, driven by my passion for technology and building digital experiences.  I completed a Front-End Web Development course between (November 2020 - February 2021), which introduced me to web design and coding fundamentals. More recently, I graduated from a Full-Stack Web Development program (April - September 2024), where I gained hands-on experience in both front-end and back-end technologies, including HTML, CSS, JavaScript, and frameworks like React,  Angular, Node.js, Serverless and Express and Relational and Non-Relational databases like MongoDB and SQL.
+
        <br />
        <br />
-          This portfolio showcases my journey as a developer, highlighting the projects I’ve worked on, the skills I’ve honed, the problems I’ve solved and I’m always eager to improve my skills. Whether you're here to explore my work or connect for potential opportunities, I’m excited to share what I’ve been building. Thanks for stopping by.
+       With a unique background that combines technical adaptability from my digitization work and comprehensive coding knowledge, I’m excited to bring my skills to a new career in web development, contributing to dynamic and impactful projects.
         </Col>
       </Row>
       <Row md={8} className='mx-auto justify-content-center'>
@@ -44,7 +45,7 @@ function AboutView() {
               <tr>
                 <td>2</td>
                 <td>CSS</td>
-                <td>5</td>
+                <td>4</td>
                 <td>Advanced</td>
               </tr>
               <tr>
@@ -56,7 +57,7 @@ function AboutView() {
               <tr>
                 <td>4</td>
                 <td>Python</td>
-                <td>2</td>
+                <td>1</td>
                 <td>Beginner</td>
               </tr>
               <tr>
@@ -68,7 +69,7 @@ function AboutView() {
               <tr>
                 <td>6</td>
                 <td>Angular</td>
-                <td>4</td>
+                <td>3</td>
                 <td>Intermediate</td>
               </tr>
               <tr>
@@ -86,13 +87,13 @@ function AboutView() {
               <tr>
                 <td>9</td>
                 <td>AWS & Serverless framework</td>
-                <td>4</td>
+                <td>3</td>
                 <td>Intermediate</td>
               </tr>
               <tr>
                 <td>10</td>
                 <td>MongoDB/SQL</td>
-                <td>4</td>
+                <td>4/3</td>
                 <td>Intermediate</td>
               </tr>
               <tr>
@@ -106,8 +107,8 @@ function AboutView() {
         </Col>
       </Row>
       <Row md={12} sm={8} className='mt-5 mb-5 justify-content-center'>
-        <Col md={8} className=''>
-          <h2 className='text-white mb-4 mt-2'>Home Town</h2>
+        <Col md={8}>
+          <h2 className='mb-4 mt-2'>Home Town</h2>
           <HomeTwonView />
         </Col>
       </Row>

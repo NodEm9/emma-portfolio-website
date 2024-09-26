@@ -6,6 +6,9 @@ import Footer from './components/footer-view/footer-view';
 import About from './components/about-view/about-view';
 import Work from './components/work-view/work-view';
 import Contact from './components/contact-view/contact-view';
+import PostsView from './components/blog-posts/postOne';
+
+
 
 function App() {
   return (
@@ -17,6 +20,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/work" element={<Work />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/blog" element={<PostsView />} />
         </Routes>
         <Footer />
       </HashRouter>

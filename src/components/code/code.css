@@ -1,0 +1,33 @@
+.code {
+  position: relative;
+}
+
+.copy-icon {
+  background: transparent;
+}
+
+.code .code-header{
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  box-shadow: none;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.code-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: transparent;
+}
+
+.code-header, .copy-icon, .code-icon {
+  margin-right: 1rem;
+}
+
+.copy-icon {
+  z-index: 10;
+  background: #000000;
+}

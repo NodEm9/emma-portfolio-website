@@ -4,7 +4,6 @@ import poke from '../assets/images/poke.png'
 import meet from '../assets/images/meet-app.png'
 import ecopicture from '../assets/images/ecopicture.png'
 import portfoliowebsite from '../assets/images/emma-portfolio-website-img.webp'
-import todo from '../assets/images/todoapp.png'
 import chatapp from '../assets/videos/chat-app.gif'
 import docu from '../assets/images/docu.png'
 
@@ -27,7 +26,7 @@ const cardData = [
   {
     title: 'Meet App',
     img: meet,
-    text: 'React SPA built using TDD and BDD approaches. Jest, Ghekins, Puppeteer and Jest-Cucumber used for tesing. AWS and Google Calendar API, Atatus is used to experiment app performance monitoring. This app allows users to search for upcoming events in their city.',
+    text: 'React SPA built using TDD and BDD approaches. Jest, Ghekins, Puppeteer and Jest-Cucumber used for tesing. AWS and Google Calendar API, Atatus is used to experiment app performance monitoring.',
     appLink: 'https://nodem9.github.io/meet/',
     codeLink: 'https://github.com/NodEm9/mee'
   },
@@ -51,13 +50,6 @@ const cardData = [
     text: 'Pokédex app built HTML, CSS, JQuery and Bootstrap. The app fetches pokémon data from PokéAPI.',
     appLink: 'https://nodem9.github.io/pokemonapp/',
     codeLink: 'https://github.com/NodEm9/pokemonapp'
-  },
-  {
-    title: 'Simple Todo App',
-    img: todo,
-    text: 'The responsive Todo app built with HTML, CSS, and JQuery.',
-    appLink: 'https://nodem9.github.io/to-do-list-app/index.html',
-    codeLink: 'https://github.com/NodEm9/to-do-list-app'
   },
   {
     title: 'Portfolio Website',

@@ -1,39 +1,46 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-:root {
-  --Primary-Color-2: #102C56;
-  --background-color: #000000;
-  --Primary-Color-3: #F2F2F2;
-  --active-color: #FFA500;
-}
-
-.bg {
-  background-color: var(--background-color);
-  color: var(--Primary-Color-3);
-  padding: 2px;
-  height: 8vh;
-}
-
 .nav {
   gap: 20px;
+  font-size: 18px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  transition: 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 .web-logo {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   border-radius: 15px;
   justify-self: center;
   margin-top: 10px;
 }
 
+
 @media screen and (max-width: 500px) {
-  .bg {
-    height: 10vh;
-  }
   .nav {
     max-width: max-content;
-    font-size: 16px;
-    gap: 1pc;
-    width: 100%;
+    font-size: 15px;
+    gap: 0.5px;
+  }
+
+  .web-logo {
+    display: none;
+  }
+
+  .owner-name {
+    font-size: 18px;
   }
 }
