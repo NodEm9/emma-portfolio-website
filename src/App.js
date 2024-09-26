@@ -9,7 +9,6 @@ import Contact from './components/contact-view/contact-view';
 import PostsView from './components/blog-posts/postOne';
 
 
-
 function App() {
   return (
     <>
