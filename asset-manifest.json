@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/emma-portfolio-website/static/css/main.3613c4fd.css",
-    "main.js": "/emma-portfolio-website/static/js/main.1a8d3df3.js",
-    "static/js/453.d8a67248.chunk.js": "/emma-portfolio-website/static/js/453.d8a67248.chunk.js",
+    "main.css": "/emma-portfolio-website/static/css/main.e57124e5.css",
+    "main.js": "/emma-portfolio-website/static/js/main.10d54b08.js",
+    "static/js/404.90b1e942.chunk.js": "/emma-portfolio-website/static/js/404.90b1e942.chunk.js",
+    "static/js/453.41317066.chunk.js": "/emma-portfolio-website/static/js/453.41317066.chunk.js",
     "static/media/chat-app.gif": "/emma-portfolio-website/static/media/chat-app.79a7cdde9d309d36d4e5.gif",
     "static/media/myflix-angular.png": "/emma-portfolio-website/static/media/myflix-angular.be85db8d153aff924a05.png",
     "static/media/ecopicture.png": "/emma-portfolio-website/static/media/ecopicture.bca8d732f6b744d5068e.png",
@@ -12,14 +13,14 @@
     "static/media/docu.png": "/emma-portfolio-website/static/media/docu.8a4fb2e0d0e14ac63bdd.png",
     "static/media/poke.png": "/emma-portfolio-website/static/media/poke.4c63665e8712bd2cc45c.png",
     "static/media/emma-portfolio-website-img.webp": "/emma-portfolio-website/static/media/emma-portfolio-website-img.ef89ef27defee4a99c91.webp",
-    "static/media/todoapp.png": "/emma-portfolio-website/static/media/todoapp.4cbf11b1f842a3e6eafc.png",
+    "static/media/article.md": "/emma-portfolio-website/static/media/article.7f8f2b4be0dc58f5794e.md",
     "index.html": "/emma-portfolio-website/index.html",
-    "main.3613c4fd.css.map": "/emma-portfolio-website/static/css/main.3613c4fd.css.map",
-    "main.1a8d3df3.js.map": "/emma-portfolio-website/static/js/main.1a8d3df3.js.map",
-    "453.d8a67248.chunk.js.map": "/emma-portfolio-website/static/js/453.d8a67248.chunk.js.map"
+    "main.e57124e5.css.map": "/emma-portfolio-website/static/css/main.e57124e5.css.map",
+    "main.10d54b08.js.map": "/emma-portfolio-website/static/js/main.10d54b08.js.map",
+    "453.41317066.chunk.js.map": "/emma-portfolio-website/static/js/453.41317066.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3613c4fd.css",
-    "static/js/main.1a8d3df3.js"
+    "static/css/main.e57124e5.css",
+    "static/js/main.10d54b08.js"
   ]
 }
