@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/emma-portfolio-website/static/css/main.e57124e5.css",
-    "main.js": "/emma-portfolio-website/static/js/main.e42d247c.js",
+    "main.css": "/emma-portfolio-website/static/css/main.63c06fa6.css",
+    "main.js": "/emma-portfolio-website/static/js/main.1a972d4f.js",
     "static/js/404.90b1e942.chunk.js": "/emma-portfolio-website/static/js/404.90b1e942.chunk.js",
     "static/js/453.41317066.chunk.js": "/emma-portfolio-website/static/js/453.41317066.chunk.js",
     "static/media/chat-app.gif": "/emma-portfolio-website/static/media/chat-app.79a7cdde9d309d36d4e5.gif",
@@ -15,12 +15,12 @@
     "static/media/emma-portfolio-website-img.webp": "/emma-portfolio-website/static/media/emma-portfolio-website-img.ef89ef27defee4a99c91.webp",
     "static/media/article.md": "/emma-portfolio-website/static/media/article.7f8f2b4be0dc58f5794e.md",
     "index.html": "/emma-portfolio-website/index.html",
-    "main.e57124e5.css.map": "/emma-portfolio-website/static/css/main.e57124e5.css.map",
-    "main.e42d247c.js.map": "/emma-portfolio-website/static/js/main.e42d247c.js.map",
+    "main.63c06fa6.css.map": "/emma-portfolio-website/static/css/main.63c06fa6.css.map",
+    "main.1a972d4f.js.map": "/emma-portfolio-website/static/js/main.1a972d4f.js.map",
     "453.41317066.chunk.js.map": "/emma-portfolio-website/static/js/453.41317066.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e57124e5.css",
-    "static/js/main.e42d247c.js"
+    "static/css/main.63c06fa6.css",
+    "static/js/main.1a972d4f.js"
   ]
 }
