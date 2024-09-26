@@ -3,7 +3,7 @@ import './about-view.css'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Table from 'react-bootstrap/Table'
-import myprofilepic from '../../assets/images/hero.jpg'
+import myprofilepic from '../../assets/images/hero.avif'
 import HomeTwonView from './home-town-view'
 
 function AboutView() {

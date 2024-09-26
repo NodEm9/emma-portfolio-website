@@ -3,7 +3,7 @@
 
 <br />
 
- <img src="../../assets/images/hero.jpg" alt="My Image" />
+ <img src="../../assets/images/hero.avif" alt="My Image" />
 
 **Author:** *Emmanuel*  
 

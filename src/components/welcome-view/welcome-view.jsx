@@ -1,6 +1,6 @@
 import React from 'react'
 import './welcome-view.css'
-import myprofilepic from '../../assets/images/hero.jpg'
+import myprofilepic from '../../assets/images/hero.avif'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'

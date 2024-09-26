@@ -22,7 +22,7 @@ function PostsView() {
 
   return (
     <Row md={12} className='mx-auto mt-5 pt-5 justify-content-center'>
-      <Col md={6} xs={4} sm={3} className='mt-5 pt-5 justify-content-center fs-5 lh-base'>
+      <Col lg={6} md={10} xs={4} sm={3} className='mt-3 pt-3 justify-content-center fs-5 lh-base'>
         <Markdown
           options={{
             overrides: {
