@@ -17,7 +17,7 @@ function WelcomePage() {
       <Row md={12} className='main'>
         <Col md={6} className='hero-image'>
           <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} config={{ duration: 1000, damping: 1 }}>
-            {props => <animated.img style={props} src={myprofilepic} alt='Emmanuel' className='img-fluid' />}
+            {props => <animated.img rel="preload" style={props} src={myprofilepic} alt='Emmanuel' className='img-fluid' />}
           </Spring>
         </Col>
         <Col md={6} className='intro-text justify-content-center'>
@@ -27,8 +27,8 @@ function WelcomePage() {
             </animated.h1>}
           </Spring>
           <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} config={{ duration: 1000, damping: 1 }}>
-            {props => <animated.p style={props} className='content fs-5'>
-              <span className='owner-name'>I'm </span><b>Emmanuel Nodolomwanyi</b>,
+            {props => <animated.p style={props} className='content'>
+              <span className='owner-name'>I'm </span><b> Emmanuel Nodolomwanyi</b>,
               a enthusaistic full-stack developer with a knack for building dynamic, user-friendly web applications. I enjoy creating seamless experiences from front-end design to back-end functionality, using technologies like JavaScript, React, Angular, Node.js, AWS and MongoDB.  
               <a href='#/work' className='text-primary'>Read more...<FaArrowRight className='text-dark'/> </a>
             </animated.p>}

@@ -39,6 +39,7 @@ a {
   position: absolute;
   top: 0;
   margin-top: 7rem;;
+  font-size: 1.2rem;
 }
 
 .hero-text {
@@ -102,11 +103,13 @@ a {
   }
 
   .content {
-    margin-top: -18rem;
+    margin-top: -20rem;
+    font-size: 1rem;
   }
 
   .hero-text {
     margin-top: -26rem;
+    font-size: 24px;
   }
 
   .social-link {

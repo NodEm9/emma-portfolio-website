@@ -10,7 +10,7 @@ function ImageComponent({ src, alt, width, height }) {
   height = '100px'
   return (
     <Col md={1} sm={12} xs={12} className='d-flex justify-content-start'>
-      <img src={src} alt={alt} width={width} height={height} className='img img-fluid rounded-circle' />
+      <img src={src} fetchPriority='high' alt={alt} width={width} height={height} className='img img-fluid rounded-circle' />
     </Col>
   )
 }

@@ -18,9 +18,9 @@ function WorkView() {
           {cardData.map((card, index) => (
             <Card key={index} className='mb-4 subgrid'>
               {card.video ? (
-                <Card.Img variant='top' src={card.video} className='video' />
+                <Card.Img  rel='preload' variant='top' src={card.video} className='video' />
               ) : (
-                <Card.Img variant='top' src={card.img} className='card-img' />
+                <Card.Img rel='preload' variant='top' src={card.img} className='card-img' />
               )}
               <Card.Body className='card-body'>
                 <Card.Title className='fw-bold pt-1 pb-1'>{card.title}</Card.Title>

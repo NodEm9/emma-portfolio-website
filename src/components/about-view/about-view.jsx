@@ -11,14 +11,13 @@ function AboutView() {
     <Row className='justify-content-center text-center mt-5 pt-5'>
       <Row className='justify-content-center'>
         <Col md={8} className='profile-pic mt-5 mb-'>
-          <img src={myprofilepic} alt='Emmanuel Nodolomwanyi' className='hero-img text-center rounded-circle' />
+          <img src={myprofilepic} rel='preload' alt='Emmanuel Nodolomwanyi' className='hero-img text-center rounded-circle' />
           <h1 className='mt-5'>About Me</h1>
         </Col>
       </Row>
       <Row md={12} className='justify-content-center'>
         <Col md={5} sm={12} className='intro-txt mt-5 mb-5 text-wrap'>
         After a career in document digitization, where I honed my attention to detail and organizational skills, I transitioned into web development, driven by my passion for technology and building digital experiences.  I completed a Front-End Web Development course between (November 2020 - February 2021), which introduced me to web design and coding fundamentals. More recently, I graduated from a Full-Stack Web Development program (April - September 2024), where I gained hands-on experience in both front-end and back-end technologies, including HTML, CSS, JavaScript, and frameworks like React,  Angular, Node.js, Serverless and Express and Relational and Non-Relational databases like MongoDB and SQL.
-
        <br />
        <br />
        With a unique background that combines technical adaptability from my digitization work and comprehensive coding knowledge, I’m excited to bring my skills to a new career in web development, contributing to dynamic and impactful projects.
