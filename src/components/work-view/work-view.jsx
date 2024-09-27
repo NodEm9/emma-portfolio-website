@@ -7,8 +7,6 @@ import Col from 'react-bootstrap/Col'
 import  cardData from '../../data/cardData'
 
 
-
-
 function WorkView() { 
   return (
     <Container fluid className='mb-5 mt-5 pt-1 ml-5 pl-5'>

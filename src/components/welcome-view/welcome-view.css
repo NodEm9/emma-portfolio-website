@@ -65,11 +65,7 @@ a {
 
  .card {
   border: 1px solid var(--border-color);
-  border-radius: 10px;
   transition: transform 0.3s  ease-in-out;
-  width: 400px;
-  height: 540px;
-  grid-template-columns: subgrid;
 }
 
 .card:hover {
@@ -140,18 +136,9 @@ a {
     justify-content: center;
   }
 
-  .recent-project {
-    margin: 4rem;
-  }
-
   .card-wrapper {
     grid-template-columns: auto;
-    justify-content: center;
-  }
-
-  .card {
-    width: 400px;
-    height: 600px;
+    gap: 20px;
   }
 
   .view-project {
