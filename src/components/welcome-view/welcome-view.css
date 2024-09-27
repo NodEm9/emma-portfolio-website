@@ -2,6 +2,7 @@
 
 :root {
   --background-color: #011b43;
+  --border-color: #272727;
 }
 
 .main {
@@ -13,17 +14,16 @@
   overflow: hidden;
 }
 
-img {
-  width: 100%;
-  margin-bottom: 20px;
-}
-
 a {
   color: var(--background-color);
 }
 
 .hero-image {
   height: 100vh;
+}
+
+.hero-picture {
+  width: 100%;
 }
 
 .intro-text {
@@ -38,7 +38,7 @@ a {
 .content {
   position: absolute;
   top: 0;
-  margin-top: 7rem;;
+  margin-top: 10rem;;
   font-size: 1.2rem;
 }
 
@@ -54,7 +54,7 @@ a {
   margin-top: 17rem;
 }
 
-.card-containers {
+.card-wrapper {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
@@ -62,14 +62,30 @@ a {
   gap: 60px;
  }
 
+ .card {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  transition: transform 0.3s  ease-in-out;
+  width: 400px;
+  height: 540px;
+  grid-template-columns: subgrid;
+}
+
 .card:hover {
   transform: scale(1.01);
+}
+
+.video, .card-img {
+  width: auto;
+  height: 50%;
+  object-fit: cover;
 }
 
 .card-body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: subgrid;
+  padding: 5px 20px;
 }
 
 .card-link {
@@ -79,21 +95,27 @@ a {
 }
 
 .view-project {
-  margin-right: -12rem;
+  margin-right: -20rem;
 }
 
 .h2-text {
-  margin-left: -12rem;
+  margin-left: -20rem;
 }
 
 @media screen and (max-width: 500px) {
   .main {
-    padding: 5px 5px;
+    margin-top: 6rem;
+    padding: 0 5px;
     text-align: center;
   }
 
-  img{
-    width: 90%;
+  .hero-image {
+    height: 100vh;
+    margin: 1rem;
+  }
+
+  .hero-picture{
+    margin-bottom: 11rem;
   }
 
   .intro-text {
@@ -117,21 +139,21 @@ a {
     justify-content: center;
   }
 
-  .recent-proj {
-    padding: 0 80px;
+  .recent-project {
+    margin: 4rem;
   }
 
-  .card-containers {
+  .card-wrapper {
     grid-template-columns: auto;
     padding: 0 80px;
   }
 
   .view-project {
-    margin-right: -11rem;
+    margin-right: -6rem;
   }
   
   .h2-text {
-    margin-left: -11rem;
+    margin-left: -6rem;
   }
 
 }

@@ -21,7 +21,7 @@ function Navigation() {
       <Container>
         <Navbar.Brand href="#/" className='d-flex gap-3 align-items-center jusfiy-content-center'>
           <img src={logo} alt="Website Logo" className='web-logo rounded-circle text-white fw-bold' />
-          <h1 className='text-white fw-bold fs-4'>Emma Nodo</h1>
+          <h1 defer className='owner-name text-white fw-bold '>Emma Nodo</h1>
         </Navbar.Brand>
         <Navbar.Toggle className='toggle bg-light' />
         <Navbar.Collapse className="justify-content-end">

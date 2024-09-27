@@ -1,7 +1,7 @@
-import React from 'react'
-import { Row, Col } from 'react-bootstrap'
-import Markdown from 'markdown-to-jsx'
 import { useState, useEffect } from 'react'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Markdown from 'markdown-to-jsx'
 import Code from '../code/Code'
 import ImageComponent from '../img/Image'
 

@@ -1,12 +1,18 @@
 import React from 'react'
 import './welcome-view.css'
 import myprofilepic from '../../assets/images/hero.avif'
+import myprofilepic1 from '../../assets/images/hero-avf-img.avif'
+import heropicture from '../../assets/images/hero.webp'
+import heropicture1 from '../../assets/images/hero-img.webp'
+import profilepic from '../../assets/images/hero.jpg'
+
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import cardData from '../../data/cardData'
-import {  FaGithub, FaLinkedin, FaXTwitter, FaMedium, FaArrowRight } from 'react-icons/fa6'
+import { FaGithub, FaLinkedin, FaXTwitter, FaMedium, FaArrowRight } from 'react-icons/fa6'
 import { Spring, animated } from '@react-spring/web'
+import Card from 'react-bootstrap/Card'
 
 
 function WelcomePage() {
@@ -16,21 +22,23 @@ function WelcomePage() {
     <Container fluid="md">
       <Row md={12} className='main'>
         <Col md={6} className='hero-image'>
-          <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} config={{ duration: 1000, damping: 1 }}>
-            {props => <animated.img rel="preload" style={props} src={myprofilepic} alt='Emmanuel' className='img-fluid' />}
-          </Spring>
+          <picture>
+            <source srcSet={`${myprofilepic}, ${myprofilepic1}`} width={`${500}, ${800}`} type='image/avif' className='img-fluid' />
+            <source srcSet={`${heropicture}, ${heropicture1}`} width={`${500}, ${800}`} type='image/webp' className='img-fluid' />
+            <img src={profilepic} alt='My profile' className='hero-picture img-fluid' />
+          </picture>
         </Col>
         <Col md={6} className='intro-text justify-content-center'>
           <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} config={{ duration: 1000, }}>
             {props => <animated.h1 style={props} className='hero-text fw-bold'>
-              I'm poised to create <span className='text-primary'>innovative</span> solutions for your business.
+              Motivated about turning ideas into a <span className='text-primary fw-bold'>creative</span> and <span className='text-primary fw-bold'>innovative</span> experience.
             </animated.h1>}
           </Spring>
           <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} config={{ duration: 1000, damping: 1 }}>
             {props => <animated.p style={props} className='content'>
               <span className='owner-name'>I'm </span><b> Emmanuel Nodolomwanyi</b>,
-              a enthusaistic full-stack developer with a knack for building dynamic, user-friendly web applications. I enjoy creating seamless experiences from front-end design to back-end functionality, using technologies like JavaScript, React, Angular, Node.js, AWS and MongoDB.  
-              <a href='#/work' className='text-primary'>Read more...<FaArrowRight className='text-dark'/> </a>
+              a enthusaistic full-stack developer with a knack for building dynamic, user-friendly web applications. I enjoy creating seamless experiences from front-end design to back-end functionality, using technologies like JavaScript, React, Angular, Node.js, AWS, MongoDB. <br/>
+              <a href='#/about' className='text-primary'>Read more...<FaArrowRight className='text-dark' /> </a>
             </animated.p>}
           </Spring>
           <Spring from={{ x: 0 }} to={{ x: 10 }} config={{ duration: 1000 }}>
@@ -63,35 +71,38 @@ function WelcomePage() {
         </Col>
       </Row>
       <hr />
-        <Row md={12} sm={8} className='recent-proj mt-3 pt-2 mb-5 justify-content-center'>
-        <Col md={8} className='d-flex  align-items-center justify-content-between'>
-        <Spring from={{ x: 0 }} to={{ x: 100 }} config={{ duration: 1000, damping: 1 }}>
-            {props => <animated.h2 style={props} className='h2-text fs-4'>Recent Project</animated.h2>}
+      <Row md={12} sm={3} className='mt-3 pt-2 justify-content-center'>
+        <Col md={8} className='d-flex align-items-center justify-content-between'>
+          <Spring from={{ x: 0 }} to={{ x: 100 }} config={{ duration: 1000, damping: 1 }}>
+            {props => <animated.h2 style={props} className='h2-text fw-semi-bold fs-4'>Recent Project</animated.h2>}
           </Spring>
           <Spring from={{ x: 0 }} to={{ x: -100 }} config={{ duration: 1000, damping: 1 }}>
             {props => <animated.a style={props} href="#/work" className='view-project'><h2 className='fs-4'>View ALL</h2></animated.a>}
           </Spring>
-          </Col>
-          <Col md={8} className='card-containers'>
-            {recentProject.map((project, index) => (
-              <div key={index} className='card mb-4 subgrid'>
-                {project.video ? (
-                  <img src={project.video} alt='Project video' className='video' />
-                ) : (
-                  <img src={project.img} alt='Project' className='card-img' />
-                )}
-                <div className='card-body'>
-                  <h3 className='fw-bold pt-1 pb-1'>{project.title}</h3>
-                  <p className='fw-medium'>{project.text}</p>
-                  <div className='card-link'>
-                    <a href={project.appLink} target='_blank' rel="noreferrer" className='float-start'>View App</a>
-                    <a href={project.codeLink} className='float-end' rel="noreferrer" target='_blank'>View Code</a>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </Col>
+        </Col>
         </Row>
+        <hr />
+      <Row md={12} className='justify-content-center pt-5 pb-5 mb-5'>
+        <Col md={8} className='card-wrapper'>
+          {recentProject.map((project, index) => (
+            <Card key={index} className='card mb-4 subgrid'>
+              {project.video ? (
+                <img src={project.video} alt='Project video' className='video' />
+              ) : (
+                <img src={project.img} alt='Project' className='card-img' />
+              )}
+              <Card.Body className='card-body'>
+                <Card.Title className='fw-bold pt-4 pb-1'>{project.title}</Card.Title>
+                <Card.Text className='fw-medium'>{project.text}</Card.Text>
+                <div className='card-link'>
+                  <Card.Link href={project.appLink} target='_blank' rel="noreferrer" className='float-start'>View App</Card.Link>
+                  <Card.Link href={project.codeLink} className='float-end' rel="noreferrer" target='_blank'>View Code</Card.Link>
+                </div>
+              </Card.Body>
+            </Card>
+          ))}
+          </Col>
+      </Row>
       <hr />
     </Container>
   )

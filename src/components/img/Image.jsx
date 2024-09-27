@@ -1,7 +1,7 @@
 import React from 'react'
 import './img.css'
 import heroImage from '../../assets/images/hero.avif'
-import { Col } from 'react-bootstrap'
+import Col  from 'react-bootstrap/Col'
 
 function ImageComponent({ src, alt, width, height, fetchpriority }) {
   src = heroImage
