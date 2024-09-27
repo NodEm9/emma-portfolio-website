@@ -33,13 +33,11 @@ function WelcomePage() {
               Motivated about turning ideas into a <span className='text-primary fw-bold'>creative</span> and <span className='text-primary fw-bold'>innovative</span> experience.
             </animated.h1>}
           </Spring>
-          <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} config={{ duration: 1000, damping: 1 }}>
-            {props => <animated.p style={props} className='content'>
-              <span className='owner-name'>I'm </span><b> Emmanuel Nodolomwanyi</b>,
-              a enthusaistic full-stack developer with a knack for building dynamic, user-friendly web applications. I enjoy creating seamless experiences from front-end design to back-end functionality, using technologies like JavaScript, React, Angular, Node.js, AWS, MongoDB. <br/>
-              <a href='#/about' className='text-primary'>Read more...<FaArrowRight className='text-dark' /> </a>
-            </animated.p>}
-          </Spring>
+          <p className='content'>
+            <span className='owner-name'>I'm </span><b> Emmanuel Nodolomwanyi</b>,
+            a enthusaistic full-stack developer with a knack for building dynamic, user-friendly web applications. I enjoy creating seamless experiences from front-end design to back-end functionality, using technologies like JavaScript, React, Angular, Node.js, AWS, MongoDB. <br />
+            <a href='#/about' className='text-primary'>Read more...<FaArrowRight className='text-dark' /> </a>
+          </p>
           <Spring from={{ x: 0 }} to={{ x: 10 }} config={{ duration: 1000 }}>
             {props => <animated.p style={props} className=' gap-5'>
               <small className='social-link d-flex gap-3 fs-4'>
@@ -79,8 +77,8 @@ function WelcomePage() {
             {props => <animated.a style={props} href="#/work" className='view-project'><h2 className='fs-4'>View ALL</h2></animated.a>}
           </Spring>
         </Col>
-        </Row>
-        <hr />
+      </Row>
+      <hr />
       <Row md={12} className='justify-content-center mt-5 mb-5 ml-5 pl-5'>
         <Col className='card-wrapper d-flex flex-wrap justify-content-center'>
           {recentProject.map((project, index) => (
@@ -100,7 +98,7 @@ function WelcomePage() {
               </Card.Body>
             </Card>
           ))}
-          </Col>
+        </Col>
       </Row>
       <hr />
     </Container>
