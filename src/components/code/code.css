@@ -9,17 +9,22 @@
 .code .code-header{
   position: absolute;
   top: 0.5rem;
-  right: 1rem;
+  right: 0.5rem;
   box-shadow: none;
   cursor: pointer;
   z-index: 5;
+}
+
+.code-copy {
+  transform: scale(-1);
+  border: none;
+  background: transparent;
 }
 
 .code-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
   background: transparent;
 }
 

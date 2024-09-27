@@ -21,16 +21,12 @@ function Code({ children }) {
       <div className='code-header'>
         <FaCode className='text-light code-icon' />
         <CopyToClipboard text={children} onCopy={() => setCopied(true)}>
-          <button className='code-copy bg-dark'>
-            {copied ?
-              <MdContentPaste className='text-light' />
-              : <MdFileCopy className='text-light' />}
+          <button className='code-copy'>
+            {copied ? <MdContentPaste className='text-light' /> : <MdFileCopy className='text-light' />}
           </button>
         </CopyToClipboard>
       </div>
-      <SyntaxHighlighter language="javascript" style={materialDark}>
-        {children}
-      </SyntaxHighlighter>
+      <SyntaxHighlighter language="javascript" style={materialDark}>{children}</SyntaxHighlighter>
     </div>
   )
 }
