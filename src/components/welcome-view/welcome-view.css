@@ -145,7 +145,12 @@ a {
 
   .card-wrapper {
     grid-template-columns: auto;
-    padding: 0 80px;
+    justify-content: center;
+  }
+
+  .card {
+    width: 400px;
+    height: 600px;
   }
 
   .view-project {

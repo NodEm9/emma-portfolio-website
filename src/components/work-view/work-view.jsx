@@ -9,7 +9,7 @@ import  cardData from '../../data/cardData'
 
 
 
-function WorkView() {
+function WorkView() { 
   return (
     <Container fluid className='mb-5 mt-5 pt-1 ml-5 pl-5'>
       <h1 className='text-center pt-3 mt-5 pb-4 mb-4'>My Work</h1>

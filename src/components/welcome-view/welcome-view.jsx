@@ -82,8 +82,8 @@ function WelcomePage() {
         </Col>
         </Row>
         <hr />
-      <Row md={12} className='justify-content-center pt-5 pb-5 mb-5'>
-        <Col md={8} className='card-wrapper'>
+      <Row md={12} className='justify-content-center mt-5 mb-5 ml-5 pl-5'>
+        <Col className='card-wrapper d-flex flex-wrap justify-content-center'>
           {recentProject.map((project, index) => (
             <Card key={index} className='card mb-4 subgrid'>
               {project.video ? (
