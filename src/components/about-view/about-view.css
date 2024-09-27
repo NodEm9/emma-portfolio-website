@@ -2,6 +2,9 @@
 .hero-img {
   width: 30%;
   margin-bottom: 20px;
+  margin-top: 7rem;
+  cursor: pointer;
+  animation: spin 4s linear forwards;
 }
 
 .intro-txt {
@@ -28,46 +31,11 @@
 @media screen and (max-width: 500px) {
   .hero-img {
     width: 50%;
-  }
-
-  .intro-txt {
-    width: 100%;
-    font-size: 1rem;
-    font-weight: 500;
-    margin-bottom: 20px; 
-    text-wrap: nowrap;
-    padding: 0; 
-    margin: 0;
-    text-align: left;
+    margin-top: 6rem;
+    margin-bottom: 0;
   }
 }
 
-@media screen and (max-width: 370px) {
-  .hero-img {
-    width: 40%;
-  }
-
-  .table {
-    width: 100%;
-    justify-content: center;
-    margin-right: 1.4rem;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .hero-img {
-    width: 50%;
-    margin-top: 50px;
-  }
-
-  .intro-txt {
-    width: 90%;
-    font-size: 1.2rem;
-    font-weight: 500;
-    padding: 0 10px;
-    margin-bottom: 20px; 
-  }
-}
 
 @keyframes color-change {
   0% {
@@ -115,3 +83,13 @@
     transform: scale(1);
   }
  }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg) scale(0.1);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1.02);
+  }
+}

@@ -4,23 +4,31 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Table from 'react-bootstrap/Table'
 import myprofilepic from '../../assets/images/hero.avif'
+import myprofilepic1 from '../../assets/images/hero-avf-img.avif'
+import heropicture from '../../assets/images/hero.webp'
+import heropicture1 from '../../assets/images/hero-img.webp'
+import profilepic from '../../assets/images/hero.jpg'
 import HomeTwonView from './home-town-view'
 
 function AboutView() {
   return (
-    <Row className='justify-content-center text-center mt-5 pt-5'>
+    <Row lg={12} md={10} className='justify-content-center text-center mt-3'>
       <Row className='justify-content-center'>
-        <Col md={8} className='profile-pic mt-5 mb-'>
-          <img src={myprofilepic} rel='preload' alt='Emmanuel Nodolomwanyi' className='hero-img text-center rounded-circle' />
-          <h1 className='mt-5'>About Me</h1>
+        <Col md={8} className='profile-pic'>
+          <picture>
+            <source srcSet={`${myprofilepic}, ${myprofilepic1}`} width={`${500}, ${800}`} type='image/avif' className='img-fluid' />
+            <source srcSet={`${heropicture}, ${heropicture1}`} width={`${500}, ${800}`} type='image/webp' className='img-fluid' />
+            <img src={profilepic} rel='preload' alt='Emmanuel Nodolomwanyi' className='hero-img text-center rounded-circle' />
+          </picture>
+          <h1 className='mt-3 fw-bold'>About Me</h1>
         </Col>
       </Row>
-      <Row md={12} className='justify-content-center'>
-        <Col md={5} sm={12} className='intro-txt mt-5 mb-5 text-wrap'>
-        After a career in document digitization, where I honed my attention to detail and organizational skills, I transitioned into web development, driven by my passion for technology and building digital experiences.  I completed a Front-End Web Development course between (November 2020 - February 2021), which introduced me to web design and coding fundamentals. More recently, I graduated from a Full-Stack Web Development program (April - September 2024), where I gained hands-on experience in both front-end and back-end technologies, including HTML, CSS, JavaScript, and frameworks like React,  Angular, Node.js, Serverless and Express and Relational and Non-Relational databases like MongoDB and SQL.
-       <br />
-       <br />
-       With a unique background that combines technical adaptability from my digitization work and comprehensive coding knowledge, I’m excited to bring my skills to a new career in web development, contributing to dynamic and impactful projects.
+      <Row lg={5} md={8} className='justify-content-center'>
+        <Col lg={5} md={10} sm={3} className='intro-txt mt-3 mb-5 text-wra'>
+          After a career in document digitization, where I honed my attention to detail and organizational skills, I transitioned into web development, driven by my passion for technology and building digital experiences.  I completed a Front-End Web Development course between (November 2020 - February 2021), which introduced me to web design and coding fundamentals. More recently, I graduated from a Full-Stack Web Development program (April - September 2024), where I gained hands-on experience in both front-end and back-end technologies, including HTML, CSS, JavaScript, and frameworks like React,  Angular, Node.js, Serverless and Express and Relational and Non-Relational databases like MongoDB and SQL.
+          <br />
+          <br />
+          With a unique background that combines technical adaptability from my digitization work and comprehensive coding knowledge, I’m excited to bring my skills to a new career in web development, contributing to dynamic and impactful projects.
         </Col>
       </Row>
       <Row md={8} className='mx-auto justify-content-center'>

@@ -5,7 +5,6 @@ import myprofilepic1 from '../../assets/images/hero-avf-img.avif'
 import heropicture from '../../assets/images/hero.webp'
 import heropicture1 from '../../assets/images/hero-img.webp'
 import profilepic from '../../assets/images/hero.jpg'
-
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'

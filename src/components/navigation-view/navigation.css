@@ -15,6 +15,11 @@
   transition: 0.5s ease-in-out;
 }
 
+.link-name {
+  color: rgb(112, 128, 255);
+  font-weight: 700;
+}
+
 .nav-link:hover {
   border-radius: 5px;
   text-decoration: none;
@@ -25,6 +30,7 @@
   height: 30px;
   border-radius: 15px;
   justify-self: center;
+  animation: spin 2s linear forwards;
 }
 
 .owner-name {
@@ -44,5 +50,15 @@
 
   .owner-name {
     font-size: 16px;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg) scale(0.7);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1.02);
   }
 }

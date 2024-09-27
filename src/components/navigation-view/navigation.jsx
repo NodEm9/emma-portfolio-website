@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react'
 import './navigation.css'
 import logo from '../../assets/images/logo.png'
 import Container from 'react-bootstrap/Container';
@@ -6,16 +6,15 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 const navLinks = [
-  { title: 'Work', href: '#/work'},
-  { title: 'About', href: '#/about'},
-  { title: 'Contact', href: '#/contact'},
-  { title: 'Blog', href: '#/blog'},
+  { name: 'Work', href: '#/work' },
+  { name: 'About', href: '#/about' },
+  { name: 'Contact', href: '#/contact' },
+  { name: 'Blog', href: '#/blog' },
 ]
 
 function Navigation() {
   // Get the current URL path and set it to the pathName variable
-  const pathName = new URL(window.location.href).hash
-
+  const pathName = new URL(window.location.href).hash;
   return (
     <Navbar className='bg-dark fixed-top'>
       <Container>
@@ -28,15 +27,15 @@ function Navigation() {
           <Nav className='nav text-white'>
             <Navbar.Text role='menu' className='nav-items'>
               {navLinks.map((link, index) => (
-                 <Nav.Link
-                 key={index}
-                 href={link.href}
-                 role='menuitem'
-                 aria-label='Navigation Link'
-                 contextMenu='Navigation Link'
+                <Nav.Link
+                  key={index}
+                  href={link.href}
+                  role='menuitem'
+                  aria-label='Navigation Link'
+                  contextMenu='Navigation Link'
                   className='nav-link text-white'>
                   {/** Add active class to the current link */}
-                  {pathName === link.href ? <strong className='text-primary'>{link.title}</strong> : link.title}
+                  {pathName === link.href ? <strong className='link-name'>{link.name}</strong> : link.name}
                 </Nav.Link>
               ))}
             </Navbar.Text>
