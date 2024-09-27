@@ -13,7 +13,7 @@
 
 In this post, I will show you how to host a React app on GitHub Pages.
 
-Often as a beginner, it's almost inevitable to run into such issues, and it could be frustrating. Since React is one of the most popular frontend library amongst others, it's certain you can find solutions on how you can fix any sort of problem you my come accross as you are developing your application in the internet. This is true because of React roburst users community. If you have stumbled upon this article, you should worry no more as I will teach you how to fix this problem in just a few minutes.
+Often as a beginner, it's almost inevitable not to run into this kind of issues, and it could be frustrating. Since React is one of the most popular frontend library amongst others, it's most certain you can find solutions on the internet about how you can fix any sort of problem you may encounter as you are developing your application. This is true because of React roburst users community. If you have stumbled upon this article, you should worry no more as I will teach you how to fix this problem in just a few minutes.
 
 Before we dive in, let's quickly look at what we will learn in this article.
 
@@ -24,6 +24,7 @@ Before we dive in, let's quickly look at what we will learn in this article.
 - [Create a React App](https://react.dev/learn/start-a-new-react-project#nextjs-pages-router)
 - Install gh-pages
 - Add Homepage to package.json
+- Prepare your Routes
 - Deploy to GitHub Pages
 
 <br />
@@ -34,6 +35,7 @@ Before we dive in, let's quickly look at what we will learn in this article.
 First, create a new React app using [Create React App](https://react.dev/learn/start-a-new-react-project#nextjs-pages-router).
 
 ```bash
+
 npx create-react-app my-app
 cd my-app
 ```
@@ -43,6 +45,7 @@ cd my-app
 Next, install gh-pages package as a dev dependency.
 
 ```bash
+
 npm install gh-pages --save-dev
 ```
 
@@ -53,6 +56,7 @@ npm install gh-pages --save-dev
 Add a homepage field to your package.json file like so.
 
 ```json
+
 {
   "name": "my-app",
   "version": "0.1.0",
@@ -62,12 +66,13 @@ Add a homepage field to your package.json file like so.
 ```
 <br />
 
-## How to add routes that work on GitHub Pages
+## Prepare your Routes for GitHub Pages
 
 To add routes that work on GitHub Pages, you need to use HashRouter instead of BrowserRouter.
 Wrap the HashRouter around your routes including the Router as seen below in the App component or the index.js depending on where you choose to place your routes.  
 
 ```jsx
+
 import { HashRouter as Router, Route } from 'react-router-dom';
 
 function App() {
@@ -92,6 +97,7 @@ In the above code, we use the HashRouter instead of BrowserRouter from react-rou
 Now create a navigation component if you have not yet created one, after you create the component, copy the code below and paste it inside or create navigation links using the Link component from react-router-dom or with an anchor if you prefer that.
 
 ```jsx
+
 import { Link } from 'react-router-dom';
 
 function Navigation() {
@@ -120,6 +126,7 @@ function Navigation() {
 Finally, deploy your app to GitHub Pages.
 
 ```bash
+
 npm run deploy
 ```
 
