@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import './navigation.css'
 import logo from '../../assets/images/logo.png'
 import Container from 'react-bootstrap/Container';
