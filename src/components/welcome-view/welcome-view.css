@@ -24,6 +24,7 @@ a {
 
 .hero-picture {
   width: 100%;
+  animation: enlarge 5s linear forwards;
 }
 
 .intro-text {
@@ -163,3 +164,11 @@ a {
 
 }
 
+@keyframes enlarge {
+  0% {
+    transform:  scale(0);
+  }
+  100% {
+    transform:  scale(1);
+  }
+}
