@@ -14,6 +14,7 @@ import { Spring, animated } from '@react-spring/web'
 import Card from 'react-bootstrap/Card'
 
 
+
 function WelcomePage() {
   // Retrieve the first four projects from the cardData array
   const recentProject = cardData.slice(0, 4)

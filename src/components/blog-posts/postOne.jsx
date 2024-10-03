@@ -15,7 +15,11 @@ function PostsView() {
       .then(res => {
         fetch(res.default)
           .then(res => res.text())
-          .then(res => setBlogPost(res))
+          .then(res => {
+            if(!res) return setBlogPost('No content found')
+            setBlogPost(res)
+          }
+            )
           .catch(err => { throw new Error(err) })
       })
   }, []);

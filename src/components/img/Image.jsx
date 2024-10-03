@@ -4,6 +4,7 @@ import heroImage from '../../assets/images/hero.avif'
 import Col  from 'react-bootstrap/Col'
 
 function ImageComponent({ src, alt, width, height, fetchpriority }) {
+  // In case the props are not passed, we can use the default values
   src = heroImage
   alt = 'Emma Nodo'
   width = '100px'
