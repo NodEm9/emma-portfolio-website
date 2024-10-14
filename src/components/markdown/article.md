@@ -11,7 +11,7 @@
 
 <br />
 
-In this post, I will show you how to host a React app on GitHub Pages.
+In this post, We are going to learn how to host a React app on GitHub Pages.
 
 Often as a beginner, it's almost inevitable not to run into this kind of issues, and it could be frustrating. Since React is one of the most popular frontend library amongst others, it's most certain you can find solutions on the internet about how you can fix any sort of problem you may encounter as you are developing your application. This is true because of React roburst users community. If you have stumbled upon this article, you should worry no more as I will teach you how to fix this problem in just a few minutes.
 
