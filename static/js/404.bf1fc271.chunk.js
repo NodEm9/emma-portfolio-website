@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkemma_portfolio_website=self.webpackChunkemma_portfolio_website||[]).push([[404],{404:(e,t,s)=>{e.exports=s.p+"static/media/article.141a849d564e8e7db438.md"}}]);
