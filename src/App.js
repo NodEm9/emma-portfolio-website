@@ -8,9 +8,13 @@ import Footer from './components/footer-view/footer-view';
 function App() {
   return (
     <main>
-        <Navigation />
-        <WelcomePage />
-        <Footer />
+      <Navigation />
+      <WelcomePage />
+      <Footer />
+      <div className='bg-dark p-1 text-center text-white'>
+        <p className='text-white m-2'>&copy; Copyright 2024</p>
+        <p className='text-white'>Designed and Develop by Emmanuel Nodolomwanyi</p>
+      </div>
     </main>
   );
 }
