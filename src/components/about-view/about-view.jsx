@@ -2,123 +2,67 @@ import React from 'react'
 import './about-view.css'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Table from 'react-bootstrap/Table'
-import myprofilepic from '../../assets/images/hero.avif'
-import myprofilepic1 from '../../assets/images/hero-avf-img.avif'
-import heropicture from '../../assets/images/hero.webp'
-import heropicture1 from '../../assets/images/hero-img.webp'
-import profilepic from '../../assets/images/hero.jpg'
-import HomeTwonView from './home-town-view'
+import certifications from '../../assets/images/certificate-1356.svg'
+import engineerTeam from '../../assets/images/engineer-team.svg'
+import CustomImage from '../customs/CustomImage'
+
 
 function AboutView() {
   return (
-    <Row lg={12} md={10} className='justify-content-center text-center mt-3'>
-      <Row className='justify-content-center'>
-        <Col md={8} className='profile-pic'>
-          <picture>
-            <source srcSet={`${myprofilepic}, ${myprofilepic1}`} width={`${500}, ${800}`} type='image/avif' className='img-fluid' />
-            <source srcSet={`${heropicture}, ${heropicture1}`} width={`${500}, ${800}`} type='image/webp' className='img-fluid' />
-            <img src={profilepic} rel='preload' alt='Emmanuel Nodolomwanyi' className='hero-img text-center rounded-circle' />
-          </picture>
-          <h1 className='mt-3 fw-bold'>About Me</h1>
+    <Row lg={12} md={10} className='justify-content-center text-center mt-5 mb-5'>
+      <Row className='justify-content-center mt-5 mb-4'>
+        <Col md={12} className='mt-5'>
+          <h1 className='fw-bold'>About Me</h1>
         </Col>
       </Row>
       <Row lg={5} md={8} className='justify-content-center'>
-        <Col lg={5} md={10} sm={3} className='intro-txt mt-3 mb-5 text-wra'>
-          After a career in document digitization, where I honed my attention to detail and organizational skills, I transitioned into web development, driven by my passion for technology and building digital experiences.  I completed a Front-End Web Development course between (November 2020 - February 2021), which introduced me to web design and coding fundamentals. More recently, I graduated from a Full-Stack Web Development program (April - September 2024), where I gained hands-on experience in both front-end and back-end technologies, including HTML, CSS, JavaScript, and frameworks like React,  Angular, Node.js, Serverless and Express and Relational and Non-Relational databases like MongoDB and SQL.
-          <br />
-          <br />
-          With a unique background that combines technical adaptability from my digitization work and comprehensive coding knowledge, I’m excited to bring my skills to a new career in web development, contributing to dynamic and impactful projects.
+        <Col lg={5} md={10} sm={3} className='about-txt'>
+          <div className='icons text-center'>
+            <CustomImage src={certifications} alt='Certificate Icon' />
+            <h2 className='fs-4 fw-bold mt-3 mb-3'>Certified Web Developer</h2>
+          </div>
+          <blockquote>I completed a six month full-stack web development course with the guidance of a personal tutor and a mentor. Amongst others I built full-stack projects using  serverless framework, AWS, Google Calendar Api with TDD, BDD approach, MERN stack  and a React Native App.</blockquote>
+        </Col>
+        <Col lg={5} md={10} sm={3} className='about-txt'>
+          <div className='icons1 text-center'>
+            <CustomImage src={engineerTeam} alt='Certificate Icon' />
+            <h2 className='fs-4 fw-bold mt-3 mb-3'>Team Player</h2>
+          </div>
+          <blockquote>My experience in the digitization, banking and telecommunications sectors has shaped me into a proactive team player, skilled at collaborating with diverse teams to solve complex challenges. I leverage the communication and problem-solving skills honed in these industries to contribute effectively in tech environments, driving projects forward with a customer-focused approach.</blockquote>
+        </Col>        <Col lg={5} md={10} sm={3} className='about-txt mb-5'>
+          <div className='icons text-center'>
+            <CustomImage src={certifications} alt='Certificate Icon' />
+            <h2 className='fs-4 fw-bold mt-3 mb-3'>Certified Web Developer</h2>
+          </div>
+          <blockquote>I completed a six month full-stack web development course with the guidance of a personal tutor and a mentor. Amongst others I built full-stack projects using  serverless framework, AWS, Google Calendar Api with TDD, BDD approach, MERN stack  and a React Native App.</blockquote>
+        </Col>
+        <Col lg={5} md={10} sm={3} className='about-txt mb-5'>
+          <div className='icons1 text-center'>
+            <CustomImage src={engineerTeam} alt='Certificate Icon' />
+            <h2 className='fs-4 fw-bold mt-3 mb-3'>Certified Web Developer</h2>
+          </div>
+          <blockquote>I completed a six month full-stack web development course with the guidance of a personal tutor and a mentor. Amongst others I built full-stack projects using  serverless framework, AWS, Google Calendar Api with TDD, BDD approach, MERN stack  and a React Native App.</blockquote>
         </Col>
       </Row>
-      <Row md={8} className='mx-auto justify-content-center'>
-        <Col md={5} className='mr-5 pr-5'>
-          <Table striped bordered hover>
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Skills</th>
-                <th>Years of Experience</th>
-                <th>Level of Expertise</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>HTML</td>
-                <td>5</td>
-                <td>Advanced</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>CSS</td>
-                <td>4</td>
-                <td>Advanced</td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>JavaScript</td>
-                <td>4</td>
-                <td>Intermediate</td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>Python</td>
-                <td>1</td>
-                <td>Beginner</td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>React</td>
-                <td>4</td>
-                <td>Intermediate</td>
-              </tr>
-              <tr>
-                <td>6</td>
-                <td>Angular</td>
-                <td>3</td>
-                <td>Intermediate</td>
-              </tr>
-              <tr>
-                <td>7</td>
-                <td>Node.js</td>
-                <td>4</td>
-                <td>Intermediate</td>
-              </tr>
-              <tr>
-                <td>8</td>
-                <td>Express</td>
-                <td>4</td>
-                <td>Intermediate</td>
-              </tr>
-              <tr>
-                <td>9</td>
-                <td>AWS & Serverless framework</td>
-                <td>3</td>
-                <td>Intermediate</td>
-              </tr>
-              <tr>
-                <td>10</td>
-                <td>MongoDB/SQL</td>
-                <td>4/3</td>
-                <td>Intermediate</td>
-              </tr>
-              <tr>
-                <td>11</td>
-                <td>Jira/Ora</td>
-                <td>3</td>
-                <td>Intermediate</td>
-              </tr>
-            </tbody>
-          </Table>
+      {/* <Row md={8} className='mx-auto justify-content-center mb-4'>
+        <Col md={5} className='mr-5 pr-5 skills'>
+          <h2 className='mb-4 mt-2 fs-3 fw-bold'>Technical Skills</h2>
+          <FaUserGroup className='fs-5' /> <FaAward className='fs-5' />
+          <div className='Skills-items'>
+            <p><strong>&bull; Language and Tools:</strong> <span>HTML, CSS, JavaScript</span></p>
+            <p><strong>&bull; Frameworks and Libraries:</strong> <span>React, Angular, Next.js, Serverless</span></p>
+            <p><strong>&bull; Database:</strong> <span>MongoDB, SQL</span></p>
+            <p><strong>&bull; Cloud:</strong> <span>AWS</span></p>
+          </div>
         </Col>
-      </Row>
-      <Row md={12} sm={8} className='mt-5 mb-5 justify-content-center'>
+      </Row> */}
+
+      {/* <Row md={12} sm={8} className='mt-5 mb-5 justify-content-center'>
         <Col md={8}>
           <h2 className='mb-4 mt-2'>Home Town</h2>
           <HomeTwonView />
         </Col>
-      </Row>
+      </Row> */}
     </Row>
   )
 }
