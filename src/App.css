@@ -1,13 +1,5 @@
-:root {
-  --Primary-Color-2: #102C56;
-  --Primary-Color-3: #F2F2F2;
-  --background-color: #548ADC;
-}
-
 .App {
   text-align: center;
-  background-color: var(--Primary-Color-2);
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   height: 100vh;
   align-items: center;
   justify-content: center;
